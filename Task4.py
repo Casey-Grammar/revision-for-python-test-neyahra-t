@@ -5,14 +5,13 @@
 
 def main():
     #Write your code here
-    
-
-
+    passcode = 'Open Sesame'
+    attempt = input("Ali, what's the password?").lower().title()
+    if attempt == passcode:
+        print('Cave door open')
+    else:
+        print('')
     # End of your code here
-
-
-
-
 
 if __name__ == '__main__':
     main()

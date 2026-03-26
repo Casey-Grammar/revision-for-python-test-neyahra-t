@@ -5,9 +5,12 @@
 
 def main():
     #Write your code here
-    
-        
-    
+    word = 'bear' 
+    message = input('Message: ').lower() 
+    if word in message: 
+        print('This message has the word bear in it') 
+    else: 
+        print('') 
     # End of your code here
 
 
